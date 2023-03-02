@@ -1,0 +1,10 @@
+@startuml
+@startmindmap
+skin rose
+* tsc ( Typesciprt compiler )
+** javascript
+left side
+** Typescript code
+
+@endmindmap
+@enduml
