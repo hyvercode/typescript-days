@@ -35,3 +35,25 @@ switch (point) {
         console.log("Your grade undefined");
         break;
 }
+
+//fFor loop
+
+const colors: string[] = ["red", "green", "blue"];
+for (let i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
+}
+
+
+//While loop
+let _number: number = 1;
+while (_number <= 10) {
+  console.log(_number);
+  _number++;
+}
+
+//Do While 
+let i: number = 1;
+do {
+  console.log(i);
+  i++;
+} while (i <= 10)
