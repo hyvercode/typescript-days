@@ -57,3 +57,12 @@ do {
   console.log(i);
   i++;
 } while (i <= 10)
+
+// Break
+
+const colors_: string[] = ["red", "green", "blue"];
+for (let i = 0; i < colors_.length; i++) {
+  console.log(colors_[i]);
+  if (colors_[i] == "green")
+        break;
+}
